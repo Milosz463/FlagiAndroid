@@ -6,12 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#4CAF50"
     tools:context=".MainActivity">
 
     <TextView
+         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
+        android:layout_margin="16dp"
         android:text="Jakie kolory ma flaga Polski" />
 
     <LinearLayout
@@ -23,19 +26,28 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_margin="16dp"
+            android:onClick="dobraOdpowiedz"
+            android:backgroundTint="#FFEB3B"
+           />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_margin="16dp"
+            android:onClick="zlaOdpowiedz"
+            android:backgroundTint="@color/white"
+             />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_margin="16dp"
+            android:onClick="dobraOdpowiedz"
+            android:backgroundTint="@color/purple_200"
+             />
 
     </LinearLayout>
 
@@ -48,22 +60,29 @@
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:layout_margin="16dp"
+            android:onClick="dobraOdpowiedz"
+            android:backgroundTint="#FF5722"
+
+             />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:layout_margin="16dp"
+            android:onClick="zlaOdpowiedz"
+            android:backgroundTint="#FF0101"
+             />
 
         <Button
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:layout_margin="16dp"
+            android:onClick="dobraOdpowiedz"
+            android:backgroundTint="#3F51B5"
+             />
     </LinearLayout>
 
 </LinearLayout>
