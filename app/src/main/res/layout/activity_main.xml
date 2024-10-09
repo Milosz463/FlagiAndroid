@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#4CAF50"
+    android:background="@color/zielonyTlo"
     tools:context=".MainActivity">
 
     <TextView
          android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textSize="@dimen/rozmiarczcionki"
         android:layout_margin="16dp"
-        android:text="Jakie kolory ma flaga Polski" />
+        android:text="@string/pytanie" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:onClick="dobraOdpowiedz"
-            android:backgroundTint="#FFEB3B"
+            android:backgroundTint="@color/ZoltyPrzycisk"
            />
 
         <Button
@@ -44,7 +44,7 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/marginesprzycisku"
             android:onClick="dobraOdpowiedz"
             android:backgroundTint="@color/purple_200"
              />
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:onClick="dobraOdpowiedz"
-            android:backgroundTint="#FF5722"
+            android:backgroundTint="@color/PomaranczPrzyczisk"
 
              />
 
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:onClick="zlaOdpowiedz"
-            android:backgroundTint="#FF0101"
+            android:backgroundTint="@color/CzerwonyPrzycisk"
              />
 
         <Button
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:onClick="dobraOdpowiedz"
-            android:backgroundTint="#3F51B5"
+            android:backgroundTint="@color/GranatPrzycisk"
              />
     </LinearLayout>
 

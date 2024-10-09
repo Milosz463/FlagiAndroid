@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         licznik++;
 
         if (licznik == 4) {
-           textView.setText("To jest flaga Polski, pomysliles sie tyle razy "+pomylki);
+            textView.setText(R.string.podsumowanie);
         }
     }
 }

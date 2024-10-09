@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Flagi</string>
+    <string name="pytanie">Jakie kolory ma flaga Polski</string>
+    <string name="podsumowanie">To jest flaga Polski</string>
 </resources>
